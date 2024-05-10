@@ -15,7 +15,7 @@ export function Home() {
       <form action="">
         <FormContainer>
           <label htmlFor="task">Vou trabalhar em</label>
-          <TaskInput id="task" />
+          <TaskInput id="task" list="task-suggestions" />
           <datalist id="task-suggestions">
             <option value="projeto 1"></option>
           </datalist>
